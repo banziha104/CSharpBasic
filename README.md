@@ -142,6 +142,7 @@ namespace CSharpBasic
 }
 ```
 
+---
 ## 구조체
 
 클래스는 reference type이며
@@ -179,5 +180,112 @@ namespace CSharpBasic
             Console.WriteLine(pt.ToString());
         }
     }
+}
+```
+
+---
+## 클래스
+클래스는 Reference Type을 정의하는데 사용됨. 
+클래스 멤버
+<li> 메서드 : 실제 행동을 일으키는 블럭
+<li> 필드 : 데이터를 저장하는 블럭
+<li> 프로퍼티 : 클래스의 내부 데이터를 외부에서 사용할 수 있게 하거나, 외부에서 내부 데이터를 사용할수 있게함
+<li> 이벤트 : 객체 내부의 특정 상태 혹은 이벤트를 외부로 전달하는데 이용됨
+
+```c#
+using System;
+
+namespace CSharpBasic
+{
+    public class ClassExample
+    {
+        // 필드
+        private string name;
+        private int age;
+
+        // 이벤트 
+        public event EventHandler NameChanged;
+
+        // 생성자 (Constructor)
+        public ClassExample()
+        {
+            name = string.Empty;
+            age = -1;
+        }
+
+        // 속성
+        public string Name
+        {
+            get { return this.name; }
+            set 
+            {
+                if (this.name != value)
+                {
+                    this.name = value;
+                    if (NameChanged != null)
+                    {
+                        NameChanged(this, EventArgs.Empty);
+                    }
+                }                
+            }
+        }
+        public int Age
+        {
+            get { return this.age; }
+            set { this.age = value; }
+        }
+
+        // 메서드
+        public string GetCustomerData()
+        {
+            string data = string.Format("Name: {0} (Age: {1})", 
+                this.Name, this.Age);
+            return data;
+        }
+    }
+}
+```
+
+---
+# Nullable 타입
+정수 부동자릿수 구조체 등의 Value Type은 Null을 가질 수 없음. 하지만 필요한 경우가 존재하며,
+자료형 뒤에 ?를 붙여주면 nullable 타입으로 선언가능
+
+```c#
+int? i = null;
+bool? b = null;
+int[]? a = new int?[100]
+```
+
+## Nullable<T> 타입
+HasValue 속성과 실제값을 나타내는 Value로 이루어짐.
+```c#
+if(!a.Hasvalue) //값이 없다면
+    throw new ArgumentException();
+else            //값이 있다면
+    a = 10;
+```
+ 
+ ?? 연산자는 ?? 앞의 파라미터가 NULL인 경우 연산자 뒤에 값을 할당할 떄 사용
+ ```c#
+ a = 10 ?? 5; // null이 아닌경우 10 , null인 경우 5
+````
+
+## 정적 Nullable 클래스
+<li> Compare() : nullable 객체간 비교
+<li> Equal() : nullable 객체 간에 동일한 값을 가지고 있는지 를 찾음
+
+```c#
+void NullableTest()
+{
+    int? a = null;
+    int? b = 0;            
+    int result = Nullable.Compare<int>(a, b);
+    Console.WriteLine(result); //결과 -1
+
+    double? c = 0.01;
+    double? d = 0.0100;
+    bool result2 = Nullable.Equals<double>(c, d);
+    Console.WriteLine(result2); //결과 true
 }
 ```
