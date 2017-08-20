@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="NamespaceBasic.cs" />
+    <Compile Include="StructExample.cs" />
     <Compile Include="Yield.cs" />
     <Compile Include="ExceptionHandle.cs" />
   </ItemGroup>
