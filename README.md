@@ -289,3 +289,93 @@ void NullableTest()
     Console.WriteLine(result2); //결과 true
 }
 ```
+---
+# 메소드
+ 클래스내에서 일련의 코드 블럭을 실행시키는 함수를 메서드라 부름
+ Pass by Value가 기본.
+
+ ## Ref 키워드
+ Pass by Reference로 호출하기 위해선 ref 키워드를 사용
+ 
+ ```c#
+static double GetData(ref int a, ref double b)
+{ return ++a * ++b; }
+
+```
+ ## Out 키워드
+ Ref 와 비슷하지만 초기화할 필요는 없
+```c#
+static bol GetData(out int a, out int b)
+return true;
+```
+
+ ## Optional 파라미터
+ 맨 마지막에 반드시 놓아야 하며 파라미터가 디폴트 값을 가진 경우에 사용
+ ```c#
+    int Calc(int a, int b, string calcType = "+")
+    {
+        switch (calcType)
+        {
+            case "+":
+                return a + b;
+            case "-":
+                return a - b;
+            case "*":
+                return a * b;
+            case "/":
+                return a / b;
+            default:
+                throw new ArithmeticException();
+        }
+    }
+```
+
+## Params
+파라미터의 갯수를 알 수 없는 경우에 사용, 맨 마지막에 위치해야함
+```c#
+//메서드
+ int Calc(params int[] values)
+
+//사용
+int s = Calc(1,2,3,4);
+s = Calc(6,7,8,9,10,11);
+```
+
+---
+# 이벤트
+클래스 내의 특정한 일이 일어났음을 외부의 이벤트 가입자들에게 알려주는 기능을 함
+```c#
+// 클래스 내의 이벤트 정의
+class MyButton
+{
+   public string Text;
+   // 이벤트 정의
+   public event EventHandler Click;
+
+   public void MouseButtonDown()
+   {
+      if (this.Click != null)
+      {
+         // 이벤트핸들러들을 호출
+         Click(this, EventArgs.Empty);
+      }
+   }
+}
+
+// 이벤트 사용
+public void Run()
+{
+   MyButton btn = new MyButton();
+   // Click 이벤트에 대한 이벤트핸들러로
+   // btn_Click 이라는 메서드를 지정함
+   btn.Click += new EventHandler(btn_Click);
+   btn.Text = "Run";
+   //....
+}
+
+void btn_Click(object sender, EventArgs e)
+{
+   MessageBox.Show("Button 클릭");
+}
+```
+
