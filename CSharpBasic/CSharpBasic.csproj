@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="NamespaceBasic.cs" />
     <Compile Include="Yield.cs" />
     <Compile Include="ExceptionHandle.cs" />
   </ItemGroup>

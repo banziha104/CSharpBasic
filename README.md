@@ -61,7 +61,7 @@ private int[] data = {1, 2, 3, 4, 5}; //데이터 배열 정의
         }
 ```
 
-
+---
 # 예외 처리
 
 ## try - catch - finally
@@ -103,6 +103,41 @@ namespace CSharpBasic
     public class MyException : Exception //커스텀 예외 클래스
     {
         
+    }
+}
+```
+
+---
+# 네임스페이스 
+
+많은 클래스들을 편리하게 관리/사용하기 위해 네임스페이스 사용
+클래스들은 대개 네임스페이스 안에서 정의됨
+네임 스페이스를 사용하는 두가지 방법
+<li> using을 이용해 사용할 네임스페이스를 불러오는 방법
+
+```c#
+using System;
+Console.WriteLine("첫번쨰 방법")
+```
+
+<li> 클래스명 앞에 네임스페이스를 전부 적는 방법
+
+```c#
+System.Console.WriteLine("두번째 방법")
+```
+
+전체 코드
+```c#
+using System;
+namespace CSharpBasic
+{
+    public class NamespaceBasic
+    {
+        static void NamespaceExample()
+        {
+              Console.WriteLine("첫번쨰 방법"); // using을 이용해 사용하고자 하는 네임스페이스를 설정
+//            System.Console.WriteLine("두번째 방법"); 
+        }
     }
 }
 ```
