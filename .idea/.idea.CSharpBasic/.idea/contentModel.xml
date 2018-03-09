@@ -14,9 +14,13 @@
         </e>
         <e p="CSharpBasic.csproj" t="IncludeRecursive" />
         <e p="Markdown" t="Include">
+          <e p="CSharpBasic.md" t="Include" />
           <e p="README.md" t="Include" />
           <e p="Unity" t="Include">
+            <e p="ActivateObject.md" t="Include" />
+            <e p="Distroy.md" t="Include" />
             <e p="EnabledComponent.md" t="Include" />
+            <e p="TranlateAndRotate.md" t="Include" />
             <e p="Vector.md" t="Include" />
           </e>
           <e p="Unity.md" t="Include" />
