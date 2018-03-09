@@ -33,11 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ClassExample.cs" />
-    <Compile Include="NamespaceBasic.cs" />
-    <Compile Include="StructExample.cs" />
-    <Compile Include="Yield.cs" />
-    <Compile Include="ExceptionHandle.cs" />
+    <Compile Include="CS\ClassExample.cs" />
+    <Compile Include="CS\ExceptionHandle.cs" />
+    <Compile Include="CS\NamespaceBasic.cs" />
+    <Compile Include="CS\StructExample.cs" />
+    <Compile Include="CS\Yield.cs" />
+    <Content Include="Markdown\Unity\EnabledComponent.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Markdown\README.md" />
+    <Content Include="Markdown\Unity.md" />
+    <Content Include="Markdown\Unity\Vector.md" />
+    <Content Include="Markdown\Val.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UnityScript" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
