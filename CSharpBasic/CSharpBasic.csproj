@@ -38,11 +38,15 @@
     <Compile Include="CS\NamespaceBasic.cs" />
     <Compile Include="CS\StructExample.cs" />
     <Compile Include="CS\Yield.cs" />
+    <Content Include="Markdown\CSharpBasic.md" />
+    <Content Include="Markdown\Unity\ActivateObject.md" />
+    <Content Include="Markdown\Unity\Distroy.md" />
     <Content Include="Markdown\Unity\EnabledComponent.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Markdown\README.md" />
     <Content Include="Markdown\Unity.md" />
+    <Content Include="Markdown\Unity\TranlateAndRotate.md" />
     <Content Include="Markdown\Unity\Vector.md" />
     <Content Include="Markdown\Val.md" />
   </ItemGroup>
