@@ -20,6 +20,9 @@
             <e p="ActivateObject.md" t="Include" />
             <e p="Distroy.md" t="Include" />
             <e p="EnabledComponent.md" t="Include" />
+            <e p="GetAxis.md" t="Include" />
+            <e p="Input.md" t="Include" />
+            <e p="Mouse.md" t="Include" />
             <e p="TranlateAndRotate.md" t="Include" />
             <e p="Vector.md" t="Include" />
           </e>

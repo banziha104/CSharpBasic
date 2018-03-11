@@ -46,6 +46,9 @@
   <ItemGroup>
     <Content Include="Markdown\README.md" />
     <Content Include="Markdown\Unity.md" />
+    <Content Include="Markdown\Unity\GetAxis.md" />
+    <Content Include="Markdown\Unity\Input.md" />
+    <Content Include="Markdown\Unity\Mouse.md" />
     <Content Include="Markdown\Unity\TranlateAndRotate.md" />
     <Content Include="Markdown\Unity\Vector.md" />
     <Content Include="Markdown\Val.md" />
