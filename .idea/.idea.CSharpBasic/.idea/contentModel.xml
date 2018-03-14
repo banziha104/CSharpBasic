@@ -18,9 +18,11 @@
           <e p="README.md" t="Include" />
           <e p="Unity" t="Include">
             <e p="ActivateObject.md" t="Include" />
+            <e p="DeltaTime.md" t="Include" />
             <e p="Distroy.md" t="Include" />
             <e p="EnabledComponent.md" t="Include" />
             <e p="GetAxis.md" t="Include" />
+            <e p="GetComponent.md" t="Include" />
             <e p="Input.md" t="Include" />
             <e p="Mouse.md" t="Include" />
             <e p="TranlateAndRotate.md" t="Include" />
