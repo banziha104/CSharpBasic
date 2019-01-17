@@ -7,24 +7,23 @@
     <bookmark url="file://$PROJECT_DIR$/CSharpBasic/Markdown/Unity/001_ActivateObject.md" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fd92a2f-f5d3-417d-99ec-327cc8b768e2" name="Default" comment="add Unity">
-      <change afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/003_Distroy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpBasic/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpBasic/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpBasic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpBasic/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3fd92a2f-f5d3-417d-99ec-327cc8b768e2" name="Default" comment="add Delegate">
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/CS/ClassExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/CS/ClassExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/CS/StructExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/CS/StructExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpBasic/CSharpBasic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/CSharpBasic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/ActivateObject.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/001_ActivateObject.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/DeltaTime.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/002_DeltaTime.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Distroy.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/CSharp/01_Delegate.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/EnabledComponent.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/004_EnabledComponent.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Enumerations.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/005_Enumerations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/GetAxis.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/006_GetAxis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/GetComponent.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/007_GetComponent.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Input.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/008_Input.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Instantiate.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/009_Instantiate.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Invoke.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/010_Invoke.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Mouse.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/011_Mouse.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/TranlateAndRotate.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/012_TranlateAndRotate.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Vector.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/013_Vector.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/ActivateObject.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/DeltaTime.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Distroy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/EnabledComponent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Enumerations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/GetAxis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/GetComponent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Input.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Instantiate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Invoke.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Mouse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/TranlateAndRotate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpBasic/Markdown/Unity/Vector.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +47,14 @@
         <counts>
           <entry key="cs" value="54" />
           <entry key="md" value="66" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="55" />
           <entry key="Markdown" value="65" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,8 +103,8 @@
         <entry file="file://$PROJECT_DIR$/CSharpBasic/Markdown/CSharp/01_Delegate.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="842">
-                <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <first_editor relative-caret-position="870">
+                <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -233,9 +234,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -373,7 +373,7 @@
       <workItem from="1545817635417" duration="133000" />
       <workItem from="1545817806866" duration="156000" />
       <workItem from="1545817998365" duration="456000" />
-      <workItem from="1547618392776" duration="1440000" />
+      <workItem from="1547618392776" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="Yield">
       <created>1503214205793</created>
@@ -473,11 +473,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545818974715</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add Delegate">
+      <created>1547622093928</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547622093928</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24926000" />
+    <option name="totallyTimeSpent" value="25079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,10 +496,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19595315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22466423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -531,7 +538,8 @@
     <MESSAGE value="Yield" />
     <MESSAGE value="Struct,Namespace" />
     <MESSAGE value="add Unity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Unity" />
+    <MESSAGE value="add Delegate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Delegate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,8 +777,8 @@
     <entry file="file://$PROJECT_DIR$/CSharpBasic/Markdown/CSharp/01_Delegate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="842">
-            <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <first_editor relative-caret-position="870">
+            <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
